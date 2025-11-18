@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marga Satya</string>
+
+    <!-- Role Selection -->
+    <string name="app_subtitle">Aplikasi Ujian Aman untuk Guru &amp; Siswa</string>
+    <string name="btn_student">Masuk sebagai Siswa</string>
+    <string name="btn_teacher">Masuk sebagai Guru</string>
+    <string name="btn_admin">Masuk sebagai Admin</string>
+
+    <!-- Common -->
+    <string name="btn_next">Berikutnya</string>
+    <string name="btn_previous">Sebelumnya</string>
+    <string name="btn_submit">Kirim</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_add">Tambah</string>
+    <string name="btn_retry">Coba Lagi</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Student -->
+    <string name="label_nis">Nomor Induk Siswa (NIS)</string>
+    <string name="label_exam_code">Kode Ujian</string>
+    <string name="btn_start_exam">Mulai Ujian</string>
+    <string name="error_nis_required">Nomor Induk Siswa wajib diisi.</string>
+    <string name="error_exam_code_required">Kode ujian wajib diisi.</string>
+    <string name="error_exam_not_found">Kode ujian tidak ditemukan.</string>
+    <string name="error_student_not_allowed">Nomor Induk tidak terdaftar untuk ujian ini.</string>
+    <string name="error_exam_not_started">Ujian belum dimulai.</string>
+    <string name="error_exam_ended">Ujian sudah berakhir.</string>
+    <string name="error_exam_already_submitted">Kamu sudah menyelesaikan ujian ini.</string>
+    <string name="error_exam_lock_failed">Tidak dapat memulai mode ujian, silakan hubungi guru atau admin.</string>
+
+    <!-- Exam -->
+    <string name="btn_finish_exam">Selesai / Kirim Ujian</string>
+    <string name="btn_submit_exam">Kumpulkan Ujian</string>
+    <string name="exam_instruction_google_form">Pastikan kamu sudah menekan tombol Kirim di Google Form, lalu tekan \'Selesai / Kirim Ujian\' di sini.</string>
+    <string name="exam_submitted_success">Ujian berhasil dikumpulkan.</string>
+    <string name="exam_question_format">Soal %1$d dari %2$d</string>
+    <string name="exam_submission_pending_title">Pengiriman Ujian Tertunda</string>
+    <string name="exam_submission_pending_message">Jawabanmu tersimpan di perangkat, namun belum berhasil dikirim karena koneksi internet. Setelah koneksi stabil, tekan tombol \'Kirim Ulang\'.</string>
+    <string name="btn_retry_submit">Cek Koneksi &amp; Kirim Ulang</string>
+
+    <!-- Teacher -->
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="label_full_name">Nama Lengkap</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_register">Daftar</string>
+    <string name="title_teacher_home">Beranda Guru</string>
+    <string name="title_students">Daftar Siswa</string>
+    <string name="title_exams">Daftar Ujian</string>
+    <string name="btn_add_student">Tambah Siswa</string>
+    <string name="btn_add_exam">Buat Ujian Baru</string>
+
+    <!-- Student Management -->
+    <string name="label_student_name">Nama Siswa</string>
+    <string name="label_class">Kelas</string>
+    <string name="title_add_student">Tambah Siswa</string>
+    <string name="title_edit_student">Edit Siswa</string>
+
+    <!-- Exam Management -->
+    <string name="label_exam_title">Nama Ujian</string>
+    <string name="label_exam_description">Deskripsi</string>
+    <string name="label_exam_type">Tipe Ujian</string>
+    <string name="label_start_time">Waktu Mulai</string>
+    <string name="label_end_time">Waktu Selesai</string>
+    <string name="label_duration">Durasi (menit)</string>
+    <string name="label_form_url">URL Google Form</string>
+    <string name="exam_type_google_form">Google Form</string>
+    <string name="exam_type_in_app">In-App</string>
+    <string name="exam_status_not_started">Belum Mulai</string>
+    <string name="exam_status_running">Sedang Berjalan</string>
+    <string name="exam_status_finished">Sudah Selesai</string>
+
+    <!-- Admin -->
+    <string name="title_admin_dashboard">Dashboard Admin</string>
+    <string name="label_total_teachers">Total Guru</string>
+    <string name="label_total_students">Total Siswa</string>
+    <string name="label_total_exams">Total Ujian</string>
+    <string name="label_running_exams">Ujian Berjalan</string>
+    <string name="label_finished_exams">Ujian Selesai</string>
+    <string name="label_sessions_today">Sesi Hari Ini</string>
+    <string name="btn_setup_firestore">Jalankan Initial Setup</string>
+    <string name="btn_check_structure">Cek Struktur Data</string>
+
+    <!-- Errors -->
+    <string name="error_network">Koneksi internet bermasalah</string>
+    <string name="error_unknown">Terjadi kesalahan</string>
+    <string name="error_invalid_credentials">Email atau password salah</string>
+</resources>
